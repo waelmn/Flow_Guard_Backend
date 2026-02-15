@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Environment
+.env
+!.env.example
+
+# AI Models (too large for git)
+backend/data/models/*.pt
+backend/data/models/*.h5
+
+# Images
+backend/data/samples/
+
+# Node
+node_modules/
+frontend/.next/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
